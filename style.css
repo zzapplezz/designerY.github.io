@@ -1,0 +1,104 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-family:'Nanum Gothic', sans-serif, 'Black Han Sans';
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    color: rgb(228, 228, 228);
+}
+
+.intro_bg{
+    background-image:url(image/웹-intro.gif);
+    width: 100%;
+    height:500px;
+}
+
+.header{
+    display:flex;
+    width: 1280px;
+    margin: auto;
+    height: 216px;
+}
+
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    line-height: 128px;
+    width:calc(1280px);
+    
+}
+
+.nav > li{
+    margin-left: 30px;
+}
+
+.nav > li > a{
+    color: rgb(250, 250, 250);
+}
+
+
+.intro_text{
+    width: 67%;
+    margin: 428px;
+    text-align: center;
+
+}
+h1{
+    font-size: 42px;
+}
+
+h5{
+    font-size: 70px;
+}
+.contents1{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.intro_text > h1{
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+}
+.intro_text > h5{
+    height: 58px;
+    color: rgb(0, 0, 0);
+}
+.intro_text > h4{
+    line-height: 58px;
+    color: rgb(0, 0, 0);
+
+}
+
+/* main_text2 */
+.main_text2 {
+    width: 98.5%;
+    height: 318px;
+    background-image: url(image/컨택미.jpg);
+    color: aliceblue;
+}
+
+
+.main_text2 > ul{
+    display: flex;
+    padding-top: 85px;
+}
+
+.main_text2 > ul > li{
+    flex: auto;
+    text-align: center;
+}
+
+.more2{
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid white;
+    margin: 16px auto;
+}
+
+footer{
+    display: flex;
+    background: hsla(0, 0%, 0%, 0);
+    padding: 70px;
+}
